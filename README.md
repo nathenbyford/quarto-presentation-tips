@@ -33,5 +33,10 @@ Slide contents
 ```
 
 ## Template specific formatting
-If you are using the Baylor theme I've created, there is a new object I like to use on slides to emphasize specific parts. This is my `.def` tag, it's a gray box with rounded edges that will surround the content within. Here's an example of how it looks
-![](def.png)
+If you are using the Baylor theme I've created, there is a new object I like to use on slides to emphasize specific parts. This is my `.def` tag, it's a gray box with rounded edges that will surround the content within. Here's an example of how it looks ![](def.png)
+To use the tag just put the contents inside
+```
+:::def
+Important stuff
+:::
+```
