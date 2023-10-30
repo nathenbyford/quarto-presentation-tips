@@ -19,12 +19,21 @@ Column 2
 ```
 This code will make two columns on the slide with each being half the slides' width. This could be altered to be any percentage of the slide that is less than or equal to 100% when added. You can also make 3 or more columns if needed, following the same sum to 100 rule.
 
-**Footnotes**, to make a footnote on a slide I like to use the aside tag, that is
+**Footnotes**, to make a footnote there are two ways. One way will number it and add a reference, and the other will just have a footnote at the bottom of the page.
+
+```
+This is something cool[^1]. Here is something else[^2]
+
+[^1]: Where did this cool thing come from.
+[^2]: Another reference.
+```
+
 ```
 :::aside
 Note: this is something cool
 :::
 ```
+
 
 If the text on the slide is too large, and you cannot fit all the contents on one slide you can try making the slide contents smaller. This will just make all text and math on a slide smaller to fit more.
 ```
