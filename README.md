@@ -49,3 +49,16 @@ To use the tag just put the contents inside
 Important stuff
 :::
 ```
+
+## Sharing and Distribution
+
+To include all the required elements for the theme and presentation in the yaml header just include `embed-resources: true`. This would look something like the yaml shown below.
+
+```
+---
+title: 'Something cool'
+author: 'Me'
+format: revealjs
+embed-resources: true
+---
+```
